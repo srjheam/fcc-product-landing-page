@@ -37,6 +37,7 @@ body {
 #header h1 {
     color: white;
     margin: 0 0 0 32px;
+    line-height: calc(var(--header-height) - 16px);
 }
 
 #header-img {
