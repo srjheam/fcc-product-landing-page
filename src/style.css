@@ -31,6 +31,7 @@ body {
     padding: 8px;
 
     background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: saturate(100%) blur(20px);
 }
 
 #header h1 {
