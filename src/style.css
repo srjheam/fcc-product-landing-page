@@ -47,3 +47,41 @@ body {
     margin: 0 0 0 auto;
     align-self: center;
 }
+
+#slogan {
+    width: fit-content;
+
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+#slogan * {
+    margin: 0;
+}
+
+#slogan .slogan-top {
+    margin-bottom: -70px;
+
+    font-size: 10em;
+}
+
+#slogan .slogan-aside {
+    display: inline;
+
+    margin-bottom: -10px;
+    
+    text-align: center;
+    
+    font-size: 5em;
+    
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+}
+
+#slogan .slogan-bottom {
+    display: inline-block;
+
+    width: min-content;
+
+    font-size: 12em
+}
