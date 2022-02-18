@@ -1,3 +1,7 @@
+:root {
+    --header-height: 48px;
+}
+
 *,
 ::before,
 ::after {
@@ -8,12 +12,35 @@ html {
     box-sizing: border-box;
 }
 
-header {
+body {
+    margin: var(--header-height) 0 0;
+}
+
+#header {
     position: fixed;
     top: 0;
+
+    display: flex;
+
     width: 100%;
+    height: var(--header-height);
+
+    padding: 8px;
+
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#header h1 {
+    color: white;
+    margin: 0 0 0 32px;
 }
 
 #header-img {
-    height: 48px;
+    height: 100%;
+    filter: invert(100%);
+}
+
+#nav-bar {
+    margin: 0 0 0 auto;
+    align-self: center;
 }
