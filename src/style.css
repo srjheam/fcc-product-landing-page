@@ -22,6 +22,7 @@ body {
 #header {
     position: fixed;
     top: 0;
+    z-index: 1;
 
     display: flex;
 
@@ -50,11 +51,19 @@ body {
     align-self: center;
 }
 
+.slogan-wrapper {
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.9);;
+}
+
 #slogan {
     width: fit-content;
 
     margin: 0 auto;
     padding: 64px 0;
+
+    color: white
 }
 
 #slogan * {
