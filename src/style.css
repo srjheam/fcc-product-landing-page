@@ -87,3 +87,33 @@ body {
 
     font-size: 12em
 }
+
+#features {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 16px;
+    
+    width: fit-content;
+    
+    margin: 0 auto;
+}
+
+#features i {
+    grid-column: 1;
+    justify-self: center;
+}
+
+#features .feature-content h2, p {
+    grid-column: 2;
+
+    margin: 0;
+}
+
+#features .feature-content h2 {
+    font-size: 1.8em;
+}
+
+#features .feature-content p {
+    font-size: 1.2em;
+}

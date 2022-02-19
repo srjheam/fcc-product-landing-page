@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2ef85f5a3c.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header id="header">
         <img id="header-img" src="img/fa5-solid-umbrella.svg" />
@@ -23,11 +26,32 @@
             <p class="slogan-aside">GET</p>
             <P class="slogan-bottom">WET</P>
         </div>
-        <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TZE8y4GYFRI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section id="features">
+            <i class="fa-solid fa-droplet-slash fa-4x"></i>
+            <div class="feature-content">
+                <h2>Water Repelent</h2>
+                <p>Water repellency technology. Just shake it.</p>
+            </div>
+            <i class="fa-solid fa-arrows-rotate fa-4x"></i>
+            <div class="feature-content">
+                <h2>One Click Open and Close</h2>
+                <p>One button switch. One-handed operation. </p>
+            </div>
+            <i class="fa-solid fa-plane-departure fa-4x"></i>
+            <div class="feature-content">
+                <h2>Worldwide delivery</h2>
+                <p>Sending out within 36 hours. Full refund when needed.</p>
+            </div>
+        </section>
+        <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TZE8y4GYFRI?controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
             <input type="email" name="email" id="email" placeholder="contactme@example.com" required>
             <input type="submit" id="submit">
         </form>
     </main>
 </body>
+
 </html>
