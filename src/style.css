@@ -126,3 +126,27 @@ body {
 #features .feature-content p {
     font-size: 1.2em;
 }
+
+.video-wrapper-background {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.video-size-wrapper {
+    max-width: 600px;
+
+    margin: 0 auto;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
