@@ -261,6 +261,7 @@ p {
     font-size: 1.2em;
     background-color: transparent;
     transition: .25s;
+    cursor: pointer;
 }
 
 #form input[type="submit"]:hover {
