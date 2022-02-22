@@ -65,6 +65,26 @@ p {
     background-color: rgba(0, 0, 0, 0.9);;
 }
 
+@media only screen and (max-width:600px) {
+    div#slogan {
+        margin-top: 0px;
+    }
+
+    #slogan p.slogan-top {
+        font-size: 7em;
+        margin-bottom: -50px;
+    }
+
+    #slogan p.slogan-aside {
+        font-size: 3.6em;
+
+    }
+
+    #slogan p.slogan-bottom {
+        font-size: 8.2em;
+    }
+}
+
 #slogan {
     width: fit-content;
 
